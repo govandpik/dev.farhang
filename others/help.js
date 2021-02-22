@@ -22,31 +22,41 @@ module.exports = {
 
 
 
-<a:emoji_5:797912346759659591> **Command Music** <a:emoji_5:797912346759659591> 
+`≪  Prefix Bot m!  ≫
 
-<a:emoji_29:813102989723172906> \`m!filter\`         <a:emoji_29:813102989723172906> \`m!loop\`
+      <a:emoji_1:797796538939867137> command music <a:emoji_1:797796538939867137> 
 
-<a:emoji_29:813102989723172906> \`m!lyrics\`        <a:emoji_29:813102989723172906> \`m!nowplaing\`
+ <a:emoji_30:812376416409747578> m!loop 
+ <a:emoji_30:812376416409747578> m!lyrics
+ <a:emoji_30:812376416409747578> m!np               
+ <a:emoji_30:812376416409747578> m!pause
+ <a:emoji_30:812376416409747578> m!play                   
+ <a:emoji_30:812376416409747578> m!queue
+ <a:emoji_30:812376416409747578> m!radio                 
+ <a:emoji_30:812376416409747578> m!remove
+ <a:emoji_30:812376416409747578> m!resume             
+ <a:emoji_30:812376416409747578> m!search
+ <a:emoji_30:812376416409747578> m!shuffle              
+ <a:emoji_30:812376416409747578> m!skip
+ <a:emoji_30:812376416409747578> m!skipto               
+<a:emoji_30:812376416409747578>  m!stop
+ <a:emoji_30:812376416409747578> m!volume
 
-<a:emoji_29:813102989723172906> \`m!pause\`         <a:emoji_29:813102989723172906> \`m!play\`
+      emoji_8 Filter Commands emoji_8
 
-<a:emoji_29:813102989723172906> \`m!queue\`         <a:emoji_29:813102989723172906> \`m!radio\`
+<a:emoji_9:797912443628027955>  m!fi 8D
+ <a:emoji_9:797912443628027955> m!fi tremolo
+ <a:emoji_9:797912443628027955> m!fi vibrato
+ <a:emoji_9:797912443628027955> m!fi pulsator
+ <a:emoji_9:797912443628027955> m!fi clear
+ <a:emoji_9:797912443628027955> m!fi bassboost
+ <a:emoji_9:797912443628027955> m!fi vaporwave
 
-<a:emoji_29:813102989723172906> \`m!remove\`      <a:emoji_29:813102989723172906> \`m!resume\`
+      <a:emoji_7:797912407309287434> Others <a:emoji_7:797912407309287434> 
+ <a:emoji_29:812376279814635591> m!help              <a:emoji_29:812376279814635591> m!ping
+<a:emoji_29:812376279814635591> m!prefix            <a:emoji_29:812376279814635591> m!uptime
 
-<a:emoji_29:813102989723172906> \`m!search\`       <a:emoji_29:813102989723172906> \`m!shuffle\`
-
-<a:emoji_29:813102989723172906> \`m!skip\`            <a:emoji_29:813102989723172906> \`m!skipto\`
-
-<a:emoji_29:813102989723172906> \`m!stop\`            <a:emoji_29:813102989723172906> \`m!volume\`
-
-<a:emoji_5:797912346759659591> **Others** <a:emoji_5:797912346759659591>
-
-<a:emoji_29:813102989723172906> \`m!help\`        <a:emoji_29:813102989723172906> \`m!ping\`
-
-<a:emoji_29:813102989723172906> \`m!prefix\`       <a:emoji_29:813102989723172906> \`m!uptime\`
-
-[July Support Server](https://discord.gg/rWQh4SYQsR) - [July Invited](https://discord.com/api/oauth2/authorize?client_id=793214259932561419&permissions=8&scope=bot)
+[SUPPORT](https://discord.gg/rWQh4SYQsR)    -    [INVITE](https://discord.com/api/oauth2/authorize?client_id=793214259932561419&permissions=8&scope=bot)
 
 `)
 
