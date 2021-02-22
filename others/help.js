@@ -24,9 +24,9 @@ module.exports = {
 
 <a:emoji_5:797912346759659591> **Command Music** <a:emoji_5:797912346759659591> 
 
-<a:emoji_29:813102989723172906> \`m!filter\`          <a:emoji_29:813102989723172906> \`m!loop\`
+<a:emoji_29:813102989723172906> \`m!filter\`         <a:emoji_29:813102989723172906> \`m!loop\`
 
-<a:emoji_29:813102989723172906> \`m!lyrics\`         <a:emoji_29:813102989723172906> \`m!nowplaing\`
+<a:emoji_29:813102989723172906> \`m!lyrics\`        <a:emoji_29:813102989723172906> \`m!nowplaing\`
 
 <a:emoji_29:813102989723172906> \`m!pause\`         <a:emoji_29:813102989723172906> \`m!play\`
 
