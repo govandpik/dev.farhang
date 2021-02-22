@@ -16,13 +16,13 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setTitle(`<a:emoji_15:798111117053526017> **Prefix Bot m!** <a:emoji_16:798111136145997824>`)
+    .setTitle(`≪  Prefix Bot m!  ≫`)
     .setThumbnail(message.author.avatarURL())
     .setDescription(`
 
 
 
-`≪  Prefix Bot m!  ≫
+≪  Prefix Bot m!  ≫
 
       <a:emoji_1:797796538939867137> command music <a:emoji_1:797796538939867137> 
 
@@ -63,7 +63,7 @@ module.exports = {
   
    .setColor("BLUE");
    helpEmbed.setTimestamp();
-   message.react("<a:emoji_29:813102989723172906>")
+   message.react("<a:emoji_26:809385634149826611>")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
