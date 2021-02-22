@@ -16,11 +16,10 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setTitle(`≪  Prefix Bot m!  ≫`)
     .setThumbnail(message.author.avatarURL())
     .setDescription(`
 
-
+ ≪  Prefix Bot m!  ≫
 
       <a:emoji_1:797796538939867137> command music <a:emoji_1:797796538939867137> 
 
