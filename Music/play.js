@@ -79,6 +79,7 @@ async execute(message, args, client) {
         //If nothing is playing join the channel
         queueConstruct.connection = await channel.join();
         //send join message
+       message.react("<a:emoji_26:809385634149826611>");
         message.channel.send(new MessageEmbed().setColor("BLUE")
           .setDescription(`** <a:emoji_26:809385634149826611> Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`BY: ${message.author.username}#${message.author.discriminator}`))
