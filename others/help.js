@@ -22,13 +22,10 @@ module.exports = {
 
 
 
-≪  Prefix Bot m!  ≫
-
       <a:emoji_1:797796538939867137> command music <a:emoji_1:797796538939867137> 
 
  <a:emoji_30:812376416409747578> m!loop 
- <a:emoji_30:812376416409747578> m!lyrics
- <a:emoji_30:812376416409747578> m!np               
+ <a:emoji_30:812376416409747578> m!lyrics              
  <a:emoji_30:812376416409747578> m!pause
  <a:emoji_30:812376416409747578> m!play                   
  <a:emoji_30:812376416409747578> m!queue
@@ -42,8 +39,7 @@ module.exports = {
 <a:emoji_30:812376416409747578>  m!stop
  <a:emoji_30:812376416409747578> m!volume
 
-      emoji_8 Filter Commands emoji_8
-
+      <a:emoji_5:797912346759659591> Filter Commands <a:emoji_5:797912346759659591>
 <a:emoji_9:797912443628027955>  m!fi 8D
  <a:emoji_9:797912443628027955> m!fi tremolo
  <a:emoji_9:797912443628027955> m!fi vibrato
