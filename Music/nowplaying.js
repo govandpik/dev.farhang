@@ -40,10 +40,10 @@ execute(message) {
     const left = ms - seek;
     //define embed
     let nowPlaying = new MessageEmbed()
-      .setTitle("<:Playing:769665713124016128> Now playing")
+      .setTitle("<a:emoji_26:809385634149826611> Now playing")
       .setDescription(`[**${song.title}**](${song.url})`)
       .setThumbnail(song.thumbnail.url)
-      .setColor("#c219d8")
+      .setColor("BLUE")
       .setFooter("Time Remaining: " + new Date(left * 1000).toISOString().substr(11, 8));
       //if its a stream
       if(ms >= 10000) {
