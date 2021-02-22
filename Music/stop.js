@@ -19,7 +19,7 @@ async execute(message,args,client) {
   //if not in a guild retunr
   if (!message.guild) return;
   //react with approve emoji
-  message.react("769665713124016128").catch(console.error);
+  message.react("<a:emoji_26:809385634149826611>").catch(console.error);
   const { channel } = message.member.voice;
   //get the serverQueue
   const queue = message.client.queue.get(message.guild.id);
@@ -37,8 +37,8 @@ async execute(message,args,client) {
   await channel.leave();
   //send the approve message
   message.channel.send(new MessageEmbed()
-  .setColor("#c219d8")
-  .setAuthor(`${message.author.username} stopped the music!`, "https://cdn.discordapp.com/emojis/769915194066862080.png"))
+  .setColor("BLUE")
+  .setAuthor(`${message.author.username} stopped the music!`))
   .catch(console.error);
   }
 };
