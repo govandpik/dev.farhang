@@ -26,7 +26,7 @@ module.exports = {
       queue.connection.dispatcher.pause(true);
       //define the pause embed
       const pausemebed = new MessageEmbed().setColor("BLUE")
-      .setAuthor(`${message.author.username} paused the music. <a:emoji_26:809385634149826611>`)
+      .setAuthor(`${message.author.username} paused the music.`)
       //react with approve emoji
       message.react("<a:emoji_26:809385634149826611>")
       //return message
