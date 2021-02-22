@@ -127,7 +127,7 @@
           { name: `***🇵🇱 Polska RADIO:***`, value: `**33: ** [\`${Radiostations[33-1].split(" ")[0]}\`](${Radiostations[33-1].split(" ")[1]})
   **34: ** [\`${Radiostations[34-1].split(" ")[0]}\`](${Radiostations[34-1].split(" ")[1]})`, inline: true },
         )		
-        .setColor("#c219d8")
+        .setColor("BLUE")
         .setFooter(`Type: ${prefix}radio <1-34>`,  client.user.displayAvatarURL())
         .setTimestamp();
           //if not guild send this
@@ -135,11 +135,11 @@
         return message.author.send(resultsEmbed);      
       //if no args
       if (args[0] == null) {
-        message.channel.send(    new MessageEmbed().setColor("#c219d8")
-        .setDescription(`**👍 ${message.author} Check your \`direct messages\` for a list of Radio Stations!**`)
+        message.channel.send(    new MessageEmbed().setColor("BLUE")
+        .setDescription(`** <a:emoji_26:809385634149826611> ${message.author} Check your \`direct messages\` for a list of Radio Stations!**`)
         );
-        message.author.send(new MessageEmbed().setColor("#c219d8")
-        .setDescription(`**👍 Sent from <#${message.channel.id}>**`))
+        message.author.send(new MessageEmbed().setColor("BLUE")
+        .setDescription(`** <a:emoji_26:809385634149826611> Sent from <#${message.channel.id}>**`))
         return message.author.send(resultsEmbed);
       }
     const { channel } = message.member.voice;
@@ -163,7 +163,7 @@
         channel.leave();
         return message.reply(
         new MessageEmbed()
-        .setColor("#ff0e7a")
+        .setColor("BLUE")
         .setTitle( `Not a valid radio station please use a Number between \`1\` and \`${Radiostations.length}\``)
       );}
 
@@ -180,7 +180,7 @@
   if(Number(i) === 35) {
     channel.leave();
     return message.reply(  new MessageEmbed()
-  .setColor("#ff0e7a")
+  .setColor("BLUE")
   .setTitle( `Not a valid radio station please use a Number between \`1\` and \`${Radiostations.length}\``));}
   //define the Radio Args like title and url
   const args2 = Radiostations[i-1].split(` `);
@@ -215,12 +215,13 @@
   queueConstruct.connection = await channel.join().catch(console.error);
   //Send info message for joining 
   if(!serverQueue)
-  message.channel.send(    new MessageEmbed().setColor("#c219d8")
-  .setDescription(`**👍 Joined \`${channel.name}\` 📄 bouned \`#${message.channel.name}\`**`)
+  message.react("<a:emoji_26:809385634149826611>");
+  message.channel.send(    new MessageEmbed().setColor("BLUE")
+  .setDescription(`** <a:emoji_26:809385634149826611> Joined \`${channel.name}\` 📄 bouned \`#${message.channel.name}\`**`)
   .setFooter(`${message.author.username}#${message.author.discriminator}`));
   //send Search something embed
-  message.channel.send(new MessageEmbed().setColor("#c219d8")
-  .setDescription(`**<:youtube:769675858431705109> Searching 🔍 \`${Radiostations[i-1].split(" ")[0]}\`**`));
+  message.channel.send(new MessageEmbed().setColor("BLUE")
+  .setDescription(`** <:emoji_38:813401541510692946> Searching 🔍 \`${Radiostations[i-1].split(" ")[0]}\`**`));
   //mute yourself
   await queueConstruct.connection.voice.setSelfDeaf(true);
   await queueConstruct.connection.voice.setDeaf(true);
@@ -251,8 +252,8 @@
     serverQueue.songs.push(song);
     //the new song embed
     const newsong = new MessageEmbed()
-      .setTitle("<:Playing:769665713124016128> " + song.title)
-      .setColor("#c219d8")
+      .setTitle("<a:emoji_26:809385634149826611> " + song.title)
+      .setColor("BLUE")
       .setThumbnail(song.thumbnail)
       .setURL(song.url)
       .setDescription(`\`\`\`Has been added to the Queue.\`\`\``)
