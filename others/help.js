@@ -18,7 +18,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setThumbnail(message.author.avatarURL())
     .setDescription(`
-━━━━━━━━ <a:emoji_18:818844275750993940> ━━━━━━━━ 
+
  <a:emoji_19:818845027438166026>  DJ BOKANI @  <a:emoji_19:818845027438166026>
 
       <a:emoji_17:818843627621974056> command music <a:emoji_17:818843627621974056> 
