@@ -38,7 +38,7 @@ async execute(message,args,client) {
   //send the approve message
   message.channel.send(new MessageEmbed()
   .setColor("BLUE")
-  .setAuthor(`${message.author.username} stopped the music!`))
+  .setAuthor(`<a:emoji_22:818852862918262814> ${message.author.username} stopped the music!`))
   .catch(console.error);
   }
 };
