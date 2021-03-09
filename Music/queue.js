@@ -29,7 +29,7 @@ module.exports = {
     }
     //define queueembed
     let queueEmbed = new MessageEmbed()
-      .setTitle("Music Queue")
+      .setTitle("<a:emoji_22:818852862918262814> Music Queue")
       .setDescription(description)
       .setColor("BLUE");
     //split the description
