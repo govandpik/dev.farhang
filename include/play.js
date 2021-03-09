@@ -161,10 +161,11 @@ module.exports = {
 
     try {
       const newsong = new MessageEmbed()
-        .setTitle("<a:emoji_26:809385634149826611>"   +song.title)
+        .setTitle("<a:music:813460704031145986>"   +song.title)
         .setURL(song.url)
         .setColor("BLUE")
-        .setThumbnail(thumb)
+        .setThumbnail()
+        .setImage(thumb)
         .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
         .addField("Duration:", `\`${song.duration} Minutes\``, true)
 
@@ -198,7 +199,7 @@ module.exports = {
       if (member.voice.channel !== member.guild.me.voice.channel) {
 
         member.send(new MessageEmbed()
-        .setTitle("<a:emoji_27:811585526913957894> | You must be in the Same Voice Channel as me!")
+        .setTitle("<a:music:813460704031145986> | You must be in the Same Voice Channel as me!")
         .setColor("BLUE"))
         
         reaction.users.remove(user).catch(console.error);
