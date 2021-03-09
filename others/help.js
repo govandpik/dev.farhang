@@ -37,15 +37,15 @@ module.exports = {
  <a:emoji_15:818839370730569760> @skipto               
  <a:emoji_15:818839370730569760> @stop
  <a:emoji_15:818839370730569760> @volume
-◈ ━━━━━━━━ <a:setting:813404135181385759> ━━━━━━━━ ◈
+ ━━━━━━━━ <a:setting:813404135181385759> ━━━━━━━━ 
       <a:emoji_16:818842836890943488> Filter Commands <a:emoji_16:818842836890943488>
-<a:emoji_9:797912443628027955>  @fi 8D
- <a:emoji_9:797912443628027955> @fi tremolo
- <a:emoji_9:797912443628027955> @fi vibrato
- <a:emoji_9:797912443628027955> @fi pulsator
- <a:emoji_9:797912443628027955> @fi clear
- <a:emoji_9:797912443628027955> @fi bassboost
- <a:emoji_9:797912443628027955> @fi vaporwave
+<a:lodaing:813403104384647238>  @fi 8D
+ <a:lodaing:813403104384647238> @fi tremolo
+ <a:lodaing:813403104384647238> @fi vibrato
+ <a:lodaing:813403104384647238> @fi pulsator
+ <a:lodaing:813403104384647238> @fi clear
+ <a:lodaing:813403104384647238> @fi bassboost
+ <a:lodaing:813403104384647238> @fi vaporwave
  ━━━━━━━━ <a:emoji_16:818842836890943488> ━━━━━━━━ 
       <a:discord:813406342173818910> Others <a:discord:813406342173818910> 
 <a:Erore:813505315534405632> @help              <a:remix:815540220031533087> @ping
