@@ -37,9 +37,9 @@ async execute(message, args, client) {
     //get permissions and send error if bot doesnt have enough
     const permissions = channel.permissionsFor(message.client.user);
     if (!permissions.has("CONNECT"))
-      return attentionembed(message, "<a:emoji_57:785251527274790944> I need permissions to join your channel!");
+      return attentionembed(message, "I need permissions to join your channel!");
     if (!permissions.has("SPEAK"))
-      return attentionembed(message, "<a:emoji_57:785251527274790944> I need permissions to speak in your channel");
+      return attentionembed(message, "I need permissions to speak in your channel");
 
     //define some url patterns
     const search = args.join(" ");
