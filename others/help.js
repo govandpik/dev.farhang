@@ -35,16 +35,16 @@ module.exports = {
  __**<a:emoji_15:818839370730569760> @volume**__
  ━━━━━━━━ <a:setting:813404135181385759> ━━━━━━━━ 
       <a:emoji_16:818842836890943488> FILTER COMMANDS <a:emoji_16:818842836890943488>
-<a:lodaing:813403104384647238>  @fi 8D
- <a:lodaing:813403104384647238> @fi tremolo
- <a:lodaing:813403104384647238> @fi vibrato
- <a:lodaing:813403104384647238> @fi pulsator
- <a:lodaing:813403104384647238> @fi bassboost
- <a:lodaing:813403104384647238> @fi vaporwave
+__**<a:lodaing:813403104384647238>  @fi 8D**__
+ __**<a:lodaing:813403104384647238> @fi tremolo**__
+ __**<a:lodaing:813403104384647238> @fi vibrato**__
+ __**<a:lodaing:813403104384647238> @fi pulsator**__
+ __**<a:lodaing:813403104384647238> @fi bassboost**__
+ __**<a:lodaing:813403104384647238> @fi vaporwave**__
  ━━━━━━━━ <a:emoji_16:818842836890943488> ━━━━━━━━ 
       <a:discord:813406342173818910> OTHERS <a:discord:813406342173818910> 
-<a:Erore:813505315534405632> @help              <a:remix:815540220031533087> @ping
-<a:Erore:813505315534405632> @prefix            <a:remix:815540220031533087> @uptime
+__**<a:Erore:813505315534405632> @help**__              __**<a:remix:815540220031533087> @ping**__
+__**<a:Erore:813505315534405632> @prefix**__            __**<a:remix:815540220031533087> @uptime**__
  ━━━━━━━━ <a:setting:813404135181385759> ━━━━━━━━ 
 [SUPPORT](https://discord.gg/cbsHhSTK5v)    -    [INVITE](https://discord.com/oauth2/authorize?client_id=817582387734904842&permissions=70282305&scope=bot)
 
