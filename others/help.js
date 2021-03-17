@@ -19,7 +19,7 @@ module.exports = {
     .setThumbnail(message.author.avatarURL())
     .setDescription(`
 
- <a:emoji_19:818845027438166026>  DJ BOKANI @  <a:emoji_19:818845027438166026>
+ <a:emoji_19:818845027438166026>  DJ REMIX @  <a:emoji_19:818845027438166026>
 
       <a:emoji_17:818843627621974056> COMAND MUSIC <a:emoji_17:818843627621974056> 
 ━━━━━━━━ <a:emoji_18:818844275750993940> ━━━━━━━━               
@@ -41,7 +41,7 @@ __**<a:lodaing:813403104384647238>  @fi 8D**__
  __**<a:lodaing:813403104384647238> @fi pulsator**__
  __**<a:lodaing:813403104384647238> @fi bassboost**__
  __**<a:lodaing:813403104384647238> @fi vaporwave**__
- ━━━━━━━━ <a:emoji_16:818842836890943488> ━━━━━━━━ 
+ ━━━━━━━━ <a:setting:813404135181385759> ━━━━━━━━ 
       <a:discord:813406342173818910> OTHERS <a:discord:813406342173818910> 
 __**<a:Erore:813505315534405632> @help**__              __**<a:remix:815540220031533087> @ping**__
 __**<a:Erore:813505315534405632> @prefix**__            __**<a:remix:815540220031533087> @uptime**__
